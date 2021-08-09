@@ -15,7 +15,9 @@ a {
 a:hover {
   color: rgb(46, 78, 46);
 }
-
+.flex-container {
+   display: flex;
+}
 ul {
   list-style: none;
 }
@@ -55,7 +57,9 @@ header#header {
 /* header 끝 */
 
 /* main#main 시작 */
-
+ul#mainMenu {
+  width: 100px;
+}
 /* nav#gnb 시작 */
 nav#gnb {
   padding: 16px;
